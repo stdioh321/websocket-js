@@ -1,0 +1,26 @@
+{
+    "name": "websocket",
+    "version": "1.0.0",
+    "description": "Test WebSocket with js",
+    "main": "frontend.js",
+    "dependencies": {
+        "websocket": "^1.0.32"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start-ws": "node websocket.js && http-server .",
+        "start-http": "http-server .",
+        "start": "npm-run-all --parallel start-ws start-http",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stdioh321/websocket-js.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stdioh321/websocket-js/issues"
+    },
+    "homepage": "https://github.com/stdioh321/websocket-js#readme"
+}
